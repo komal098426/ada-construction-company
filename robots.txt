@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /thank-you.html
+
+# Sitemap location — update the domain at launch
+# Sitemap: https://www.adaconstruction.example/sitemap.xml

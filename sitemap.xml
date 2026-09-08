@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Update the domain to the live site URL at launch. thank-you.html is
+     intentionally excluded (conversion page, noindex). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.adaconstruction.example/index.html</loc><priority>1.0</priority></url>
+  <url><loc>https://www.adaconstruction.example/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.adaconstruction.example/services.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/services/custom-homes.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/services/new-home-builds.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/services/knockdown-rebuilds.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/services/renovations-extensions.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/services/duplex-multi-dwelling.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/services/pre-construction.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/process.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/headland-house.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/saddleback-house.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/verandah-terrace.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/mill-street-rebuild.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/gum-tree-duplex.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/riverbend-townhouses.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/workshop-addition.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/projects/the-quarry-review.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/gallery.html</loc><priority>0.6</priority></url>
+  <url><loc>https://www.adaconstruction.example/faqs.html</loc><priority>0.6</priority></url>
+  <url><loc>https://www.adaconstruction.example/insights.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/insights/planning-guide.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/insights/before-contacting-a-builder.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/insights/comparing-builder-quotes.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.adaconstruction.example/contact.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.adaconstruction.example/privacy.html</loc><priority>0.2</priority></url>
+  <url><loc>https://www.adaconstruction.example/terms.html</loc><priority>0.2</priority></url>
+  <url><loc>https://www.adaconstruction.example/accessibility.html</loc><priority>0.2</priority></url>
+</urlset>

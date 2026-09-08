@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Completed Projects — ADA Construction Group Pty Ltd</title>
+  <meta name="description" content="Browse ADA Construction Group Pty Ltd completed projects by service type and location — custom homes, renovations, extensions, duplexes and knockdown rebuilds across [service area].">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Completed Projects — ADA Construction Group Pty Ltd">
+  <meta property="og:description" content="Project case studies by service type and location.">
+  <meta property="og:image" content="assets/img/hero-page.svg">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="masthead">
+    <div class="wrap masthead__inner">
+      <a class="brand" href="index.html" aria-label="ADA Construction Group Pty Ltd — home">
+        <img class="brand__logo" src="assets/img/logo-white.png" alt="ADA Construction Group Pty Ltd">
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="site-nav">
+        <span>Menu</span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="process.html">Process</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="insights.html">Insights</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn--primary btn--sm nav__cta" href="contact.html" data-cta="request-consultation">Request a consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero--interior">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Projects</li>
+          </ol>
+        </nav>
+        <h1>Completed projects.</h1>
+        <p class="lede">Every project below tells you the brief, the constraint and the outcome — because a photograph alone doesn't prove a builder can think. Filter by what matches your project.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <!-- Filter chips: service group + location group. JS toggles card visibility. -->
+        <div class="filterbar" data-filterbar role="group" aria-label="Filter projects">
+          <span class="filterbar__label" id="filter-label-service">Service:</span>
+          <button class="chip" data-filter-group="service" data-filter-value="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter-group="service" data-filter-value="custom-homes" aria-pressed="false">Custom homes</button>
+          <button class="chip" data-filter-group="service" data-filter-value="renovations-extensions" aria-pressed="false">Renovations &amp; extensions</button>
+          <button class="chip" data-filter-group="service" data-filter-value="knockdown-rebuilds" aria-pressed="false">Knockdown rebuilds</button>
+          <button class="chip" data-filter-group="service" data-filter-value="duplex-multi-dwelling" aria-pressed="false">Duplex &amp; multi-dwelling</button>
+          <button class="chip" data-filter-group="service" data-filter-value="pre-construction" aria-pressed="false">Pre-construction</button>
+        </div>
+        <div class="filterbar" role="group" aria-label="Filter projects by region">
+          <span class="filterbar__label">Region:</span>
+          <button class="chip" data-filter-group="location" data-filter-value="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter-group="location" data-filter-value="coastal" aria-pressed="false">Coastal</button>
+          <button class="chip" data-filter-group="location" data-filter-value="inner" aria-pressed="false">Inner suburbs</button>
+          <button class="chip" data-filter-group="location" data-filter-value="growth" aria-pressed="false">Growth corridors</button>
+        </div>
+
+        <div class="grid grid--3">
+          <a class="project-card" href="projects/headland-house.html" data-project-card data-service="custom-homes" data-location="coastal">
+            <div class="project-card__img"><img src="assets/img/headland-house.jpg" alt="Coastal custom home with white architecture along seaside" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Custom home</span>
+              <h3 class="project-card__title">Headland House</h3>
+              <span class="project-card__meta">[Coastal suburb] · Completed 2024</span>
+              <p class="project-card__sum">Wind-exposed coastal site, resolved with a robust envelope and sheltered outdoor rooms.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="projects/saddleback-house.html" data-project-card data-service="custom-homes" data-location="growth">
+            <div class="project-card__img"><img src="assets/img/project-01.svg" alt="Modern home on a sloping rural-fringe site" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Custom home</span>
+              <h3 class="project-card__title">Saddleback House</h3>
+              <span class="project-card__meta">[Rural fringe] · Completed 2022</span>
+              <p class="project-card__sum">A split-level response to a sloping site, keeping excavation — and cost — to a minimum.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="projects/verandah-terrace.html" data-project-card data-service="renovations-extensions" data-location="inner">
+            <div class="project-card__img"><img src="assets/img/verandah-terrace.jpg" alt="White front verandah porch with flowers and black shutters" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Renovation &amp; extension</span>
+              <h3 class="project-card__title">Verandah Terrace</h3>
+              <span class="project-card__meta">[Inner suburb] · Completed 2023</span>
+              <p class="project-card__sum">Heritage front restored; light-filled rear extension added for a growing family.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="projects/mill-street-rebuild.html" data-project-card data-service="knockdown-rebuilds" data-location="inner">
+            <div class="project-card__img"><img src="assets/img/project-03.svg" alt="Fresh framing on a cleared rebuild site" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Knockdown rebuild</span>
+              <h3 class="project-card__title">Mill Street Rebuild</h3>
+              <span class="project-card__meta">[Inner suburb] · Completed 2023</span>
+              <p class="project-card__sum">Demolition and rebuild as one programme, with the family in temporary accommodation for 11 months.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="projects/gum-tree-duplex.html" data-project-card data-service="duplex-multi-dwelling" data-location="growth">
+            <div class="project-card__img"><img src="assets/img/gum-tree-duplex.jpg" alt="White residential duplex building with front courtyard" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Duplex</span>
+              <h3 class="project-card__title">Gum Tree Duplex</h3>
+              <span class="project-card__meta">[Growth suburb] · Completed 2024</span>
+              <p class="project-card__sum">Two dwellings on a sloping block, retaining the site's mature eucalypts within the design.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="projects/riverbend-townhouses.html" data-project-card data-service="duplex-multi-dwelling" data-location="inner">
+            <div class="project-card__img"><img src="assets/img/project-04.svg" alt="Townhouse development on a riverside site" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Multi-dwelling</span>
+              <h3 class="project-card__title">Riverbend Townhouses</h3>
+              <span class="project-card__meta">[Riverside suburb] · Completed 2022</span>
+              <p class="project-card__sum">Three dwellings on a flood-affected site, with levels set by flood planning controls.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="projects/workshop-addition.html" data-project-card data-service="renovations-extensions" data-location="coastal">
+            <div class="project-card__img"><img src="assets/img/project-05.svg" alt="Timber extension under construction beside existing home" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Extension</span>
+              <h3 class="project-card__title">The Workshop Addition</h3>
+              <span class="project-card__meta">[Coastal suburb] · Completed 2025</span>
+              <p class="project-card__sum">A crafted rear addition built while the family remained living in the home.</p>
+            </div>
+          </a>
+
+          <a class="project-card" href="projects/the-quarry-review.html" data-project-card data-service="pre-construction" data-location="inner">
+            <div class="project-card__img"><img src="assets/img/project-06.svg" alt="Planning desk with site plans and samples" loading="lazy" width="800" height="600"></div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Pre-construction</span>
+              <h3 class="project-card__title">The Quarry Review</h3>
+              <span class="project-card__meta">[Inner suburb] · 2025</span>
+              <p class="project-card__sum">A documentation and budget review that identified scope gaps before contract.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="empty-state" data-empty-state hidden>
+          <p><strong>No projects match those filters.</strong></p>
+          <p>Try clearing a filter — or <a href="contact.html">ask us</a> about work we've completed like yours.</p>
+        </div>
+
+        <div class="notice" style="margin-top:2rem">
+          <strong>Draft project records.</strong> Names, locations, dates and outcomes shown are illustrative placeholders. Per the PRD, published projects require client-approved case-study content, verified photography permissions and consented client details before launch.
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <h2>Seen something like your project?</h2>
+        <p>The next step is a conversation about your site, your constraints and your goals.</p>
+        <div class="cta-band__actions">
+          <a class="btn btn--primary" href="contact.html" data-cta="request-consultation">Discuss a similar project</a>
+          <a class="btn btn--ghost" href="gallery.html">Browse the gallery</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="ADA Construction Group Pty Ltd">
+            <img class="brand__logo" src="assets/img/logo-white.png" alt="ADA Construction Group Pty Ltd">
+          </a>
+          <p>A transparent, quality-focused building partner for custom homes, renovations and multi-dwelling projects across [service area].</p>
+        </div>
+        <nav aria-label="Services">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services/custom-homes.html">Custom homes</a></li>
+            <li><a href="services/new-home-builds.html">New home builds</a></li>
+            <li><a href="services/knockdown-rebuilds.html">Knockdown rebuilds</a></li>
+            <li><a href="services/renovations-extensions.html">Renovations &amp; extensions</a></li>
+            <li><a href="services/duplex-multi-dwelling.html">Duplex &amp; multi-dwelling</a></li>
+            <li><a href="services/pre-construction.html">Pre-construction</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Company">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="process.html">Our process</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="insights.html">Insights</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+61200000000">Phone: (02) 0000 0000</a></li>
+            <li><a href="mailto:enquiries@adaconstruction.example">enquiries@adaconstruction.example</a></li>
+            <li>Mon–Fri 7:30am–5:00pm</li>
+            <li>Sat (by appointment)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__meta">
+        <p>© 2026 ADA Construction Group Pty Ltd · Licence No. [0000] · [Registered address, to be confirmed]</p>
+        <ul>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="accessibility.html">Accessibility</a></li>
+        </ul>
+      </div>
+      <p style="font-size:.78rem;color:#8E9AA9;margin-top:1rem">Draft website for client review — all business details, claims, statistics and testimonials are sample content pending client verification.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

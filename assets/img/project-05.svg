@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrated project card: timber-framed extension under construction beside an existing home">
+  <rect width="800" height="600" fill="#e5dfd2"/>
+  <rect y="400" width="800" height="200" fill="#d0c9b9"/>
+  <rect x="120" y="200" width="240" height="200" fill="#6e6659"/>
+  <path d="M110 200 L370 200 L388 176 L128 176 Z" fill="#847a6c"/>
+  <rect x="160" y="250" width="60" height="150" fill="#f2b06a" opacity=".85"/>
+  <rect x="250" y="250" width="60" height="150" fill="#544f48"/>
+  <!-- new extension frame -->
+  <g stroke="#8a7355" stroke-width="11">
+    <line x1="400" y1="400" x2="400" y2="250"/>
+    <line x1="540" y1="400" x2="540" y2="250"/>
+    <line x1="660" y1="400" x2="660" y2="250"/>
+    <line x1="400" y1="250" x2="660" y2="250"/>
+    <line x1="400" y1="330" x2="660" y2="330"/>
+  </g>
+  <g stroke="#9d8666" stroke-width="7">
+    <line x1="450" y1="250" x2="450" y2="400"/>
+    <line x1="500" y1="250" x2="500" y2="400"/>
+    <line x1="590" y1="250" x2="590" y2="400"/>
+    <line x1="400" y1="290" x2="660" y2="290"/>
+    <line x1="400" y1="370" x2="660" y2="370"/>
+    <line x1="400" y1="330" x2="540" y2="250"/>
+    <line x1="540" y1="250" x2="660" y2="330"/>
+  </g>
+  <!-- material stack -->
+  <g>
+    <rect x="620" y="360" width="120" height="10" fill="#a08a6a"/>
+    <rect x="620" y="374" width="120" height="10" fill="#a08a6a"/>
+    <rect x="620" y="388" width="120" height="10" fill="#8a7355"/>
+  </g>
+</svg>

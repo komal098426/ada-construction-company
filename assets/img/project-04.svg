@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrated project card: duplex pair with shared central form">
+  <rect width="800" height="600" fill="#e0dacd"/>
+  <rect y="390" width="800" height="210" fill="#ccc5b4"/>
+  <rect x="150" y="220" width="230" height="170" fill="#4e4a43"/>
+  <rect x="420" y="220" width="230" height="170" fill="#57524b"/>
+  <path d="M140 220 L390 220 L410 198 L160 198 Z" fill="#736a5d"/>
+  <path d="M410 220 L660 220 L680 198 L430 198 Z" fill="#736a5d"/>
+  <rect x="185" y="270" width="70" height="120" fill="#f2b06a" opacity=".9"/>
+  <rect x="285" y="270" width="70" height="120" fill="#26231e"/>
+  <rect x="455" y="270" width="70" height="120" fill="#26231e"/>
+  <rect x="555" y="270" width="70" height="120" fill="#f2b06a" opacity=".75"/>
+  <rect x="315" y="330" width="34" height="60" fill="#8a837a"/>
+  <rect x="448" y="330" width="34" height="60" fill="#8a837a"/>
+</svg>

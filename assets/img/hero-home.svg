@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Illustration of a modern home at dusk with warm interior light">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e2b25"/>
+      <stop offset="1" stop-color="#4a443b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <!-- distant ridge -->
+  <path d="M0 640 L180 560 L360 610 L540 545 L760 620 L1000 555 L1240 615 L1420 570 L1600 625 V900 H0 Z" fill="#3b362f"/>
+  <!-- ground -->
+  <rect y="680" width="1600" height="220" fill="#332f29"/>
+  <!-- moon -->
+  <circle cx="1290" cy="150" r="46" fill="#e9e2d6" opacity=".85"/>
+  <circle cx="1290" cy="150" r="70" fill="#e9e2d6" opacity=".12"/>
+  <!-- main pavilion -->
+  <g>
+    <rect x="330" y="430" width="640" height="250" fill="#26231e"/>
+    <rect x="330" y="430" width="640" height="14" fill="#1b1915"/>
+    <!-- lit windows -->
+    <rect x="375" y="500" width="105" height="120" rx="3" fill="#f2b06a" opacity=".92"/>
+    <rect x="515" y="500" width="105" height="120" rx="3" fill="#c98b52" opacity=".7"/>
+    <rect x="655" y="500" width="105" height="120" rx="3" fill="#f2b06a" opacity=".92"/>
+    <rect x="375" y="460" width="285" height="22" rx="3" fill="#f7dcae" opacity=".75"/>
+    <!-- door -->
+    <rect x="830" y="530" width="70" height="150" rx="3" fill="#171511"/>
+    <rect x="830" y="530" width="70" height="150" rx="3" fill="#e8a45f" opacity=".35"/>
+    <!-- roof plane -->
+    <path d="M300 430 L980 430 L1030 400 L350 400 Z" fill="#403a32"/>
+  </g>
+  <!-- side garage volume -->
+  <g>
+    <rect x="980" y="500" width="240" height="180" fill="#2c2923"/>
+    <path d="M980 500 L1220 500 L1250 478 L1010 478 Z" fill="#403a32"/>
+    <rect x="1030" y="560" width="140" height="120" rx="3" fill="#f2b06a" opacity=".55"/>
+  </g>
+  <!-- foreground tree -->
+  <g fill="#241f19">
+    <rect x="179" y="560" width="16" height="130"/>
+    <path d="M187 420 C120 430 96 500 120 560 C132 592 168 606 187 600 C206 606 242 592 254 560 C278 500 254 430 187 420 Z"/>
+  </g>
+  <!-- path glow -->
+  <path d="M865 680 L830 780 L900 780 Z" fill="#f2b06a" opacity=".18"/>
+</svg>

@@ -1,0 +1,266 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Meridian Building Co. — home" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e7]:
+          - text: Meridian Building Co.
+          - generic [ref=e8]: Residential Builders
+      - navigation "Primary" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: index.html
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: about.html
+        - link "Services" [ref=e12] [cursor=pointer]:
+          - /url: services.html
+        - link "Process" [ref=e13] [cursor=pointer]:
+          - /url: process.html
+        - link "Projects" [ref=e14] [cursor=pointer]:
+          - /url: projects.html
+        - link "Insights" [ref=e15] [cursor=pointer]:
+          - /url: insights.html
+        - link "Contact" [ref=e16] [cursor=pointer]:
+          - /url: contact.html
+        - link "Request a consultation" [ref=e17] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - link "See our process" [ref=e20] [cursor=pointer]:
+        - /url: process.html
+        - generic [ref=e22]: ↓
+      - generic [ref=e24]:
+        - paragraph [ref=e25]: Custom Homes · Renovations · Multi-Dwelling
+        - heading "Homes built with transparency, from first sketch to final handover." [level=1] [ref=e26]
+        - paragraph [ref=e27]: Meridian Building Co. is a residential building partner for custom homes, renovations, extensions and multi-dwelling projects across [service area]. We identify the risks early, communicate clearly, and build to a documented standard.
+        - link "Request a consultation" [ref=e28] [cursor=pointer]:
+          - /url: contact.html
+      - generic "Client testimonial" [ref=e29]:
+        - generic [ref=e30]: "\""
+        - paragraph [ref=e31]: The communication was exceptional and the craftsmanship exceeded our expectations.
+        - paragraph [ref=e33]: — Private ClientCustom Home · [Service area]
+    - complementary "Company proof points" [ref=e34]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: 15+ yrs
+          - generic [ref=e39]: Operating experience
+        - generic [ref=e40]:
+          - generic [ref=e41]: 120+
+          - generic [ref=e42]: Projects delivered
+        - generic [ref=e43]:
+          - generic [ref=e44]: Licensed
+          - generic [ref=e45]: Builder registration No. [0000]
+        - generic [ref=e46]:
+          - generic [ref=e47]: 6 yr
+          - generic [ref=e48]: Structural warranty*
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - paragraph [ref=e53]: What we build
+          - heading "Construction services with a defined scope and a defined process." [level=2] [ref=e54]
+        - link "Explore all services" [ref=e55] [cursor=pointer]:
+          - /url: services.html
+      - generic [ref=e56]:
+        - article [ref=e57]:
+          - generic [ref=e58]: Division 01
+          - heading "Custom homes" [level=3] [ref=e59]
+          - paragraph [ref=e60]: Architect-designed and individually planned homes, delivered with documented programming and quality checks.
+          - paragraph [ref=e61]:
+            - link "Explore →" [ref=e62] [cursor=pointer]:
+              - /url: services/custom-homes.html
+        - article [ref=e63]:
+          - generic [ref=e64]: Division 02
+          - heading "New home builds" [level=3] [ref=e65]
+          - paragraph [ref=e66]: End-to-end construction for approved plans and specifications, from site preparation to handover.
+          - paragraph [ref=e67]:
+            - link "Explore →" [ref=e68] [cursor=pointer]:
+              - /url: services/new-home-builds.html
+        - article [ref=e69]:
+          - generic [ref=e70]: Division 03
+          - heading "Knockdown rebuilds" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Demolition coordination and replacement home construction, managed as one continuous programme.
+          - paragraph [ref=e73]:
+            - link "Explore →" [ref=e74] [cursor=pointer]:
+              - /url: services/knockdown-rebuilds.html
+        - article [ref=e75]:
+          - generic [ref=e76]: Division 04
+          - heading "Renovations & extensions" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Additions, structural alterations and whole-home upgrades that respect the existing structure.
+          - paragraph [ref=e79]:
+            - link "Explore →" [ref=e80] [cursor=pointer]:
+              - /url: services/renovations-extensions.html
+    - generic [ref=e83]:
+      - img "Meridian building team and architects collaborating on site plans" [ref=e88]
+      - generic [ref=e89]:
+        - paragraph [ref=e90]: How we work
+        - heading "A journey you can see at every stage." [level=2] [ref=e91]
+        - paragraph [ref=e92]: Every Meridian project follows the same six-stage sequence — so you always know what is happening, what is next, and who is responsible.
+        - paragraph [ref=e93]: From initial conversation and site feasibility through contract-ready pre-construction planning, we identify risks early, communicate clearly, and build to a documented standard.
+        - paragraph [ref=e94]: Our managed site operations feature quality checks at defined hold points, seamless handover commissioning, and dedicated warranty aftercare.
+        - link "See the full process" [ref=e96] [cursor=pointer]:
+          - /url: process.html
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: Completed work
+          - heading "Projects that show how we think, not just how we finish." [level=2] [ref=e102]
+        - link "Browse all projects" [ref=e103] [cursor=pointer]:
+          - /url: projects.html
+      - generic [ref=e104]:
+        - link "Coastal custom home with white architecture along seaside Custom home Headland House [Coastal suburb] · Completed 2024 A wind-exposed site resolved with a robust envelope and sheltered outdoor rooms." [ref=e105] [cursor=pointer]:
+          - /url: projects/headland-house.html
+          - img "Coastal custom home with white architecture along seaside" [ref=e107]
+          - generic [ref=e108]:
+            - generic [ref=e109]: Custom home
+            - heading "Headland House" [level=3] [ref=e110]
+            - generic [ref=e111]: "[Coastal suburb] · Completed 2024"
+            - paragraph [ref=e112]: A wind-exposed site resolved with a robust envelope and sheltered outdoor rooms.
+        - link "White front verandah porch with flowers and black shutters Renovation & extension Verandah Terrace [Inner suburb] · Completed 2023 A heritage front restored and a light-filled rear extension added for a growing family." [ref=e113] [cursor=pointer]:
+          - /url: projects/verandah-terrace.html
+          - img "White front verandah porch with flowers and black shutters" [ref=e115]
+          - generic [ref=e116]:
+            - generic [ref=e117]: Renovation & extension
+            - heading "Verandah Terrace" [level=3] [ref=e118]
+            - generic [ref=e119]: "[Inner suburb] · Completed 2023"
+            - paragraph [ref=e120]: A heritage front restored and a light-filled rear extension added for a growing family.
+        - link "White residential duplex building with front courtyard Duplex Gum Tree Duplex [Growth suburb] · Completed 2024 Two dwellings on a sloping block, with retention of the site's mature trees." [ref=e121] [cursor=pointer]:
+          - /url: projects/gum-tree-duplex.html
+          - img "White residential duplex building with front courtyard" [ref=e123]
+          - generic [ref=e124]:
+            - generic [ref=e125]: Duplex
+            - heading "Gum Tree Duplex" [level=3] [ref=e126]
+            - generic [ref=e127]: "[Growth suburb] · Completed 2024"
+            - paragraph [ref=e128]: Two dwellings on a sloping block, with retention of the site's mature trees.
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - paragraph [ref=e132]: Our commitments
+        - heading "What we hold ourselves to on every project." [level=2] [ref=e133]
+      - generic [ref=e134]:
+        - article [ref=e135]:
+          - heading "Quality" [level=3] [ref=e142]
+          - paragraph [ref=e143]: Documented workmanship standards and inspections at defined hold points — not just at the end.
+        - article [ref=e144]:
+          - heading "Safety" [level=3] [ref=e150]
+          - paragraph [ref=e151]: Sites operated under a documented safety system, with licensed trades and compliant practices.
+        - article [ref=e152]:
+          - heading "Warranty" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Statutory warranties apply to residential building work, with the certificate provided at handover.
+        - article [ref=e160]:
+          - heading "Communication" [level=3] [ref=e168]
+          - paragraph [ref=e169]: A named supervisor, agreed meeting cadence, and updates you don't have to chase.
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - paragraph [ref=e173]: Client feedback
+        - heading "What our clients say." [level=2] [ref=e174]
+      - generic [ref=e175]:
+        - figure [ref=e176]:
+          - blockquote [ref=e177]: "\"Meridian told us what the risks were before we signed anything — and then dealt with every one of them without drama.\""
+          - generic [ref=e178]:
+            - text: — Private client, custom home ·
+            - emphasis [ref=e179]: draft testimonial, pending approval
+        - figure [ref=e180]:
+          - blockquote [ref=e181]: "\"The programme updates were honest, even when the news wasn't what we hoped. That's rarer than it should be.\""
+          - generic [ref=e182]:
+            - text: — Architect, collaborative project ·
+            - emphasis [ref=e183]: draft testimonial, pending approval
+        - figure [ref=e184]:
+          - blockquote [ref=e185]: "\"They treated our investment like their own. Variations were documented, priced and agreed before work proceeded.\""
+          - generic [ref=e186]:
+            - text: — Developer, duplex project ·
+            - emphasis [ref=e187]: draft testimonial, pending approval
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - paragraph [ref=e192]: Where we build
+        - heading "Proudly building across [service area] and surrounds." [level=2] [ref=e193]
+        - paragraph [ref=e194]:
+          - text: From coastal blocks to established inner suburbs — if you're within our region,
+          - link "tell us your suburb" [ref=e195] [cursor=pointer]:
+            - /url: contact.html
+          - text: and we'll confirm coverage.
+      - link "Check your suburb" [ref=e196] [cursor=pointer]:
+        - /url: contact.html
+    - generic [ref=e198]:
+      - heading "Let's talk about your site." [level=2] [ref=e199]
+      - paragraph [ref=e200]: One conversation is usually enough to know whether your project is a fit — and what the honest next step looks like.
+      - generic [ref=e201]:
+        - link "Request a consultation" [ref=e202] [cursor=pointer]:
+          - /url: contact.html
+        - link "Call the building team" [ref=e203] [cursor=pointer]:
+          - /url: tel:+61200000000
+  - contentinfo [ref=e204]:
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - link "Meridian Building Co. Residential Builders" [ref=e208] [cursor=pointer]:
+            - /url: index.html
+            - generic [ref=e210]:
+              - text: Meridian Building Co.
+              - generic [ref=e211]: Residential Builders
+          - paragraph [ref=e212]: A transparent, quality-focused building partner for custom homes, renovations and multi-dwelling projects across [service area].
+        - navigation "Services" [ref=e213]:
+          - heading "Services" [level=4] [ref=e214]
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "Custom homes" [ref=e217] [cursor=pointer]:
+                - /url: services/custom-homes.html
+            - listitem [ref=e218]:
+              - link "New home builds" [ref=e219] [cursor=pointer]:
+                - /url: services/new-home-builds.html
+            - listitem [ref=e220]:
+              - link "Knockdown rebuilds" [ref=e221] [cursor=pointer]:
+                - /url: services/knockdown-rebuilds.html
+            - listitem [ref=e222]:
+              - link "Renovations & extensions" [ref=e223] [cursor=pointer]:
+                - /url: services/renovations-extensions.html
+            - listitem [ref=e224]:
+              - link "Duplex & multi-dwelling" [ref=e225] [cursor=pointer]:
+                - /url: services/duplex-multi-dwelling.html
+            - listitem [ref=e226]:
+              - link "Pre-construction" [ref=e227] [cursor=pointer]:
+                - /url: services/pre-construction.html
+        - navigation "Projects and company" [ref=e228]:
+          - heading "Company" [level=4] [ref=e229]
+          - list [ref=e230]:
+            - listitem [ref=e231]:
+              - link "About us" [ref=e232] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=e233]:
+              - link "Our process" [ref=e234] [cursor=pointer]:
+                - /url: process.html
+            - listitem [ref=e235]:
+              - link "Projects" [ref=e236] [cursor=pointer]:
+                - /url: projects.html
+            - listitem [ref=e237]:
+              - link "Gallery" [ref=e238] [cursor=pointer]:
+                - /url: gallery.html
+            - listitem [ref=e239]:
+              - link "FAQs" [ref=e240] [cursor=pointer]:
+                - /url: faqs.html
+            - listitem [ref=e241]:
+              - link "Insights" [ref=e242] [cursor=pointer]:
+                - /url: insights.html
+        - generic [ref=e243]:
+          - heading "Contact" [level=4] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - 'link "Phone: (02) 0000 0000" [ref=e247] [cursor=pointer]':
+                - /url: tel:+61200000000
+            - listitem [ref=e248]:
+              - link "enquiries@meridianbuilding.example" [ref=e249] [cursor=pointer]:
+                - /url: mailto:enquiries@meridianbuilding.example
+            - listitem [ref=e250]: Mon–Fri 7:30am–5:00pm
+            - listitem [ref=e251]: Sat (by appointment)
+      - generic [ref=e252]:
+        - paragraph [ref=e253]: © 2026 Meridian Building Co. · Licence No. [0000] · [Registered address, to be confirmed]
+        - list [ref=e254]:
+          - listitem [ref=e255]:
+            - link "Privacy" [ref=e256] [cursor=pointer]:
+              - /url: privacy.html
+          - listitem [ref=e257]:
+            - link "Terms" [ref=e258] [cursor=pointer]:
+              - /url: terms.html
+          - listitem [ref=e259]:
+            - link "Accessibility" [ref=e260] [cursor=pointer]:
+              - /url: accessibility.html
+      - paragraph [ref=e261]: Draft website for client review — all business details, claims, statistics and testimonials are sample content pending client verification.

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrated project card: knockdown rebuild with fresh framing on a cleared site">
+  <rect width="800" height="600" fill="#e3ddd0"/>
+  <rect y="400" width="800" height="200" fill="#cfc8b8"/>
+  <rect x="160" y="230" width="200" height="170" fill="#57514a"/>
+  <path d="M150 230 L370 230 L390 210 L170 210 Z" fill="#736a5d"/>
+  <rect x="200" y="280" width="60" height="120" fill="#f2b06a" opacity=".9"/>
+  <rect x="290" y="280" width="60" height="120" fill="#f7dcae" opacity=".5"/>
+  <!-- new frame section -->
+  <g stroke="#8a7355" stroke-width="10">
+    <line x1="420" y1="400" x2="420" y2="240"/>
+    <line x1="560" y1="400" x2="560" y2="240"/>
+    <line x1="420" y1="240" x2="560" y2="240"/>
+    <line x1="420" y1="320" x2="560" y2="320"/>
+  </g>
+  <g stroke="#9d8666" stroke-width="6">
+    <line x1="470" y1="240" x2="470" y2="400"/>
+    <line x1="510" y1="240" x2="510" y2="400"/>
+    <line x1="420" y1="280" x2="560" y2="280"/>
+    <line x1="420" y1="360" x2="560" y2="360"/>
+  </g>
+  <!-- crane -->
+  <g stroke="#a09888" stroke-width="8">
+    <line x1="680" y1="400" x2="680" y2="130"/>
+    <line x1="680" y1="150" x2="470" y2="150"/>
+    <line x1="500" y1="150" x2="500" y2="200"/>
+  </g>
+  <rect x="488" y="200" width="24" height="28" fill="#b3572a"/>
+</svg>
