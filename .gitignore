@@ -1,0 +1,6 @@
+# Browser verification artifacts (Playwright MCP)
+.playwright-mcp/
+
+# OS junk
+Thumbs.db
+.DS_Store

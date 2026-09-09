@@ -11,35 +11,35 @@ no content, wording, imagery or design copied).
 
 ---
 
-## What's in the box
+## Site structure (3 pages + supporting pages)
 
 | Area | Files |
 |---|---|
-| Core pages | `index.html`, `about.html`, `services.html`, `process.html`, `projects.html`, `gallery.html`, `faqs.html`, `insights.html`, `contact.html`, `thank-you.html` |
-| Service detail (6) | `services/*.html` |
-| Project case studies (8) | `projects/*.html` |
-| Insights articles (3) | `insights/*.html` |
+| Main pages | `index.html` (Home), `projects.html` (Projects), `contact.html` (Contact) |
+| Form completion | `thank-you.html` (conversion page, noindex) |
 | Legal | `privacy.html`, `terms.html`, `accessibility.html` |
 | SEO | `robots.txt`, `sitemap.xml` (update domain), per-page meta + Open Graph + JSON-LD |
-| Assets | `assets/css/styles.css`, `assets/js/site.js`, `assets/img/*.svg` |
+| Assets | `assets/css/styles.css`, `assets/js/site.js`, `assets/img/*` |
+
+The Projects page currently shows a "coming soon" state — no published
+projects yet. When the first verified case studies are ready, add them to
+`projects.html` (the card, filter and empty-state markup pattern from the
+original build can be reintroduced at that point).
 
 ### Features implemented (PRD refs)
 
 - **Responsive** 320px → desktop, sticky header, mobile menu with CTA
   (FR-001, FR-002, 8.1, 10.4)
-- **Project filtering** by service + region with empty state (9.5)
 - **Enquiry form**: required + progressive-disclosure optional fields,
   client-side validation with per-field error messages and preserved input,
   honeypot anti-spam, consent checkbox (FR-004, FR-005, 9.6)
 - **Analytics event shim**: `window.track()` fires `primary_cta_click`,
-  `phone_click`, `email_click`, `enquiry_start`, `enquiry_submit`,
-  `project_filter_use` per PRD §13 — no message content sent
-- **Accessibility**: skip links, keyboard-operable FAQ accordions and filter
-  chips with `aria-pressed`, visible focus, semantic landmarks, reduced-motion
-  support, 44px tap targets (10.3)
+  `phone_click`, `email_click`, `enquiry_start`, `enquiry_submit`
+  per PRD §13 — no message content sent
+- **Accessibility**: skip links, visible focus, semantic landmarks,
+  reduced-motion support, 44px tap targets (10.3)
 - **SEO**: one H1 per page, meta descriptions, OG tags, breadcrumbs,
-  JSON-LD (LocalBusiness on home, FAQPage on FAQs, Article on insights)
-  (12.1)
+  JSON-LD LocalBusiness on home (12.1)
 
 ---
 
@@ -52,31 +52,27 @@ unverified claims, so everything below must be confirmed before going live
 
 ### 1. Content checklist (PRD 11.1)
 
-- [ ] Business name / logo / brand palette (swap "Meridian Building Co.")
+- [x] Service area — Sydney (applied site-wide)
+- [x] Builder's Licence No. 494101C (applied site-wide)
 - [ ] Phone, email, address, hours — replace all `(02) 0000 0000` /
-      `meridianbuilding.example` placeholders
-- [ ] **Service area** — replace every `[service area]` mention (search the
-      folder for `[service`)
-- [ ] Licence / registration / insurance / warranty details — About page
-      credentials table
-- [ ] Credibility strip numbers (years, project count, warranty) — **home
-      page proof strip; verify or remove**
-- [ ] Company history + leadership bios (About)
-- [ ] Response-time promise — contact page, FAQs, thank-you page (**only
+      `adaconstruction.example` placeholders
+- [x] Credibility strip numbers (years, project count, warranty) — removed
+      at client request (unverified stats)
+- [ ] Response-time promise — contact page, thank-you page (**only
       publish one the team can consistently meet**)
-- [ ] Testimonials — replace drafts with approved, attributable quotes
-- [ ] Project records — 8 case studies are illustrative placeholders;
-      PRD §21 minimum is 6 *verified* records
-- [ ] FAQ answers marked `[to be confirmed]` (fees, response time, warranty)
+- [ ] Project records — none published yet; add verified case studies to
+      `projects.html` when ready
 - [ ] Privacy policy, terms, cookie/consent behaviour — legal review per
       jurisdiction
+- [ ] Legal placeholders still in place: registered address (contact page
+      side panel), governing law (terms), cookie/analytics and third-party
+      sections (privacy), response timeframes (accessibility, thank-you)
 
 ### 2. Replace placeholder imagery
 
-All imagery is original SVG illustration standing in for photography
-(chosen so nothing is copied and nothing needs a licence). Replace
-`assets/img/*.svg` with client-owned/licensed photos before launch; keep the
-same filenames and `alt` text discipline.
+All photographic imagery is stock standing in for project photography.
+Replace `assets/img/*` with client-owned/licensed photos before launch; keep
+the same filenames and `alt` text discipline.
 
 ### 3. Wire up the form backend
 
@@ -102,7 +98,9 @@ and add consent tooling if required by jurisdiction.
 - Update the domain in `sitemap.xml` + uncomment the `Sitemap:` line in
   `robots.txt`
 - Add the site to Google Search Console
-- Set up redirects if replacing an existing site (PRD 12.1)
+- Set up redirects if replacing an existing site (PRD 12.1) — note the old
+  site had about/, services/, process/, insights/, gallery/ and faqs/ URLs
+  that will now 404 without redirects
 
 ### 6. QA
 
@@ -120,4 +118,4 @@ flow, link check, analytics verification with test leads).
   link change across `*.html` is the workflow, or introduce templating when
   the site moves to a CMS (PRD 9.8 maps the required content types).
 - **Structured data**: keep JSON-LD in sync with visible content when editing
-  FAQs or business details (PRD 12.1).
+  business details (PRD 12.1).
