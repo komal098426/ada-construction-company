@@ -312,7 +312,7 @@ main{display:block}
 .rail__card dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.6rem 1.2rem;font-size:.88rem}
 .rail__card dt{font-family:var(--font-mono);font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold);font-weight:600}
 .rail__card dd{margin:0;color:var(--text-secondary)}
-.rail__card dd a{color:var(--text-light);text-decoration:none}
+.rail__card dd a{color:var(--text-light);text-decoration:none;overflow-wrap:anywhere}
 .rail__card dd a:hover{color:var(--gold)}
 
 /* NOTICE & TABLES */
@@ -543,7 +543,7 @@ main{display:block}
 .footer h4{font-family:var(--font-mono);font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 1.2rem}
 .footer ul{list-style:none;padding:0;margin:0}
 .footer li{margin-bottom:.7rem;font-size:.9rem}
-.footer a{color:var(--text-secondary);text-decoration:none;transition:color .2s ease}
+.footer a{color:var(--text-secondary);text-decoration:none;transition:color .2s ease;overflow-wrap:anywhere}
 .footer a:hover{color:var(--text-light)}
 .footer p{font-size:.92rem;line-height:1.65;color:var(--text-muted);max-width:24rem}
 .footer .brand{margin-bottom:1.2rem}
@@ -561,3 +561,160 @@ main{display:block}
 .text-center{text-align:center!important}
 .mt-0{margin-top:0!important}
 .mb-0{margin-bottom:0!important}
+
+
+/* ==========================================================================
+   COMMUNITIES HERO (Our Commitments page)
+   ========================================================================== */
+
+/* Full-bleed photo hero */
+.hero--communities {
+  position: relative;
+  min-height: 100vh;
+  background:
+    url('../img/our-communities-hero.png') center 40% / cover no-repeat;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-top: clamp(5rem, 10vh, 7rem);
+  padding-bottom: clamp(3rem, 6vh, 4rem);
+  padding-left: clamp(1.2rem, 4.5vw, 2.5rem);
+  padding-right: clamp(1.2rem, 4.5vw, 2.5rem);
+}
+
+/* Dark glass card — left-aligned, matching the reference design */
+.communities-hero__card {
+  position: relative;
+  z-index: 2;
+  max-width: 440px;
+  background: rgba(28, 33, 36, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  padding: clamp(2rem, 4vw, 2.8rem);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Breadcrumbs inside card */
+.crumbs--dark {
+  color: rgba(248, 245, 239, 0.55);
+}
+.crumbs--dark ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  flex-wrap: wrap;
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.crumbs--dark li { display: inline-flex; align-items: center; }
+.crumbs--dark li + li::before { content: '/'; margin-right: .4rem; color: rgba(248,245,239,0.4); }
+.crumbs--dark a { color: rgba(248,245,239,0.65); text-decoration: none; transition: color .2s ease; }
+.crumbs--dark a:hover { color: var(--gold); }
+.crumbs--dark li[aria-current="page"] { color: var(--gold); }
+
+/* Title */
+.communities-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -.02em;
+  color: var(--text-light);
+  margin: 0;
+}
+
+/* Description paragraph */
+.communities-hero__desc {
+  font-size: .96rem;
+  color: rgba(248, 245, 239, 0.82);
+  line-height: 1.65;
+  margin: 0;
+  max-width: 36ch;
+}
+
+/* Pillars row */
+.communities-hero__pillars {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+.communities-hero__pillars li {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  margin: 0;
+}
+.communities-hero__pillar-icon {
+  flex-shrink: 0;
+  color: rgba(248, 245, 239, 0.80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.communities-hero__pillar-icon svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+.communities-hero__pillar-label {
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  color: rgba(248, 245, 239, 0.75);
+  line-height: 1.4;
+}
+
+/* CTA button — cream pill, matches reference */
+.communities-hero__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cream);
+  color: var(--text-ink);
+  border: 2px solid var(--cream);
+  border-radius: var(--radius-pill);
+  padding: .75rem 1.7rem;
+  font-family: var(--font-body);
+  font-size: .88rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: .02em;
+  transition: background .22s ease, border-color .22s ease, transform .18s ease, box-shadow .22s ease;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.28);
+  align-self: flex-start;
+  margin-top: .4rem;
+}
+.communities-hero__btn:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--text-ink);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-gold);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .communities-hero__card {
+    max-width: 100%;
+    border-radius: var(--radius-md);
+  }
+  .communities-hero__pillars {
+    gap: 1.1rem;
+  }
+}
